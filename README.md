@@ -1,26 +1,20 @@
 # PDB Protein Structure Viewer
-
-Un notebook Jupyter pour visualiser et analyser des structures protéiques à partir de fichiers PDB (Protein Data Bank).
+A Jupyter notebook to visualize and analyze protein structures from PDB (Protein Data Bank) files.
 
 ## 🔧 Installation
-
-Installez les dépendances nécessaires :
-
+Install the necessary dependencies:
 ```bash
 pip install biopython numpy matplotlib
 ```
 
-### 2. Modifier le fichier PDB
-
-Dans la cellule 3, modifiez le nom du fichier :
-
+### 2. Modify the PDB file
+In cell 3, modify the file name:
 ```python
-structure = parser.get_structure("test", "VOTRE_FICHIER.pdb")
+structure = parser.get_structure("test", "YOUR_FILE.pdb")
 ```
 
-## 🔍 Ressources
-
-- [RCSB Protein Data Bank](https://www.rcsb.org/) - Télécharger des fichiers PDB
-- [Biopython Documentation](https://biopython.org/docs/latest/) - Documentation de Biopython
+## 🔍 Resources
+- [RCSB Protein Data Bank](https://www.rcsb.org/) - Download PDB files
+- [Biopython Documentation](https://biopython.org/docs/latest/) - Biopython documentation
 
 
